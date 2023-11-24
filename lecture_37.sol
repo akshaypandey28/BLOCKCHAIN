@@ -18,7 +18,7 @@ contract enum1{
         return choice;
     }
 
-    function getDefault() public view returns(uint){//use pure here not view
+    function getDefault() public pure returns(uint){//use pure here not view
         return uint(defaultChoice);
     }
 }
